@@ -1,30 +1,26 @@
-# # # # # # # # # # # # #
-#   K i k o - p l u s   #
-# # # # # # # # # # # # #
-
 # Basic
-name:               "Kiko Plus"
+name:               "Taewon Kim"
 
 author:
-  facebook:         your-id
-  youtubeUser:      your-id
-  youtubeChannel:   your-id
-  twitter:          your-id
-  github:           your-id
-  stackoverflow:    your-id
-  quora:            your-id
-  linkedin:         your-id
-  pinterest:        your-id
-  googlePlus:       your-id
-  instagram:        your-id
-  reddit:           your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
+  facebook:       
+  youtubeUser:     
+  youtubeChannel:   
+  twitter:          
+  github:           taewonkimz
+  stackoverflow:    
+  quora:            
+  linkedin:         
+  pinterest:        
+  googlePlus:       
+  instagram:        keemtaewon
+  reddit:           
+  medium:           
+  tumblr:           
+  email:            taewwon@naver.com
 
 copyright:
-  year:             2017
-  name:             Kiko
+  year:             2020
+  name:             Taewon Kim
 
 # Google-analytics
 google-analytics:
@@ -32,12 +28,12 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "kiko-plus"
+  id:               ""
 
 # URL
-url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
+url:                "https://taewonkimz.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
-baseurl:            "/Kiko-plus" # the subpath of your site, e.g. /blog
+baseurl:            "" # the subpath of your site, e.g. /blog
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -59,10 +55,10 @@ nav:
     url:            "/about"
   - name:           "Archive"
     url:            "/archive"
+  - name:           "Category"
+    url:            "/category"
   - name:           "Tags"
     url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
 
 # Sass
 sass:
