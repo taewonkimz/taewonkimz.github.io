@@ -27,7 +27,7 @@ google-analytics:
   id:               ""
 
 # Disqus
-disqus:
+disqus:             true
   id:               "taewonkimz-github-io"
 
 # URL
