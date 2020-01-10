@@ -1,6 +1,6 @@
 ---
 layout : post
-title : 1. 알고리즘의 개요 & 시간복잡도
+title : "1. 알고리즘의 개요 & 시간복잡도"
 description :
 date : 2020-01-10
 category : Algorithms
