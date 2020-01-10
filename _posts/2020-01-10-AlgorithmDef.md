@@ -5,6 +5,7 @@ description :
 date : 2020-01-10
 category : Algorithms
 tags : [Algoritms]
+use_math: true
 comments : true
 share : true
 ---
