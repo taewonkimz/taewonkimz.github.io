@@ -1,9 +1,12 @@
 ---
 layout : post
 title : 1. 알고리즘의 개요 & 시간복잡도
+description :
 date : 2020-01-10
 category : Algorithms
 tags : [Algoritms]
+comments : true
+share : true
 ---
 
 Sanjoy Dasgupta가 저술한 Algorithms를 참고하였다.
@@ -41,6 +44,6 @@ $
 당연히 그 시간이 짧을수록 성능이 좋은 알고리즘이다.
 <br/>
 
-##3. 알고리즘의 종류
+## 3. 알고리즘의 종류
 
 알고리즘의 종류로는 향후 공부할 정렬 알고리즘(ex. 머지소트, 퀵소트 등)과 BST, Dynamic Programming 등 다양하다.
