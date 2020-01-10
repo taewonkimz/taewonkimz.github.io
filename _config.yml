@@ -27,7 +27,7 @@ google-analytics:
   id:               ""
 
 # Disqus
-disqus:
+disqus:             "Taewon Kim"
   id:               ""
 
 # URL
@@ -64,8 +64,6 @@ nav:
 sass:
   sass_dir:         _sass
   style:            :compressed
-
-disqus_shortname : 'Taewon Kim'
 
 # Scopes
 defaults:
