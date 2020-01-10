@@ -10,7 +10,7 @@ share : true
 ---
 
 <br/>
-Sanjoy Dasgupta가 저술한 Algorithms를 참고하였다.
+Sanjoy Dasgupta가 저술한 책인 Algorithms를 참고하였다.
 <br/>
 <br/>
 
