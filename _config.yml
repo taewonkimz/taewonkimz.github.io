@@ -28,7 +28,7 @@ google-analytics:
 
 # Disqus
 disqus:             true
-  id:               "taewonkimz"
+  id:               "taewonkimz-github-io"
 
 # URL
 url:                "https://taewonkimz.github.io" # the base hostname & protocol for your site
