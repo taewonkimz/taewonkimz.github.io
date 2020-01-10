@@ -65,6 +65,8 @@ sass:
   sass_dir:         _sass
   style:            :compressed
 
+disqus_shortname : 'Taewon Kim'
+
 # Scopes
 defaults:
   -
