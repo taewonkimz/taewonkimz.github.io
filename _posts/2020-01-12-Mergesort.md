@@ -35,7 +35,7 @@ Merge Sort(합병정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(
 
 ### 2. Merge Sort의 특징
 
-우선 정렬 알고리즘은 **Stable** 하는지, 또 **In-place** 하는지에 따라 성격이 구분된다.
+우선 정렬 알고리즘은 **Stable** 한지, 그리고 **In-place** 한지에 따라 성격이 구분된다.
 
 ***- Stable***  : 같은 값의 위치(순서)가 정렬 과정에서 뒤바뀌지 않는 경우
 
@@ -53,7 +53,7 @@ Merge Sort는 Devide하는 단계에서 각 node의 index가 변화하지 않고
 
 
 
-**1. 연결리스트(Linked list)** : 각 노드가 데이터와 포인터를 갖고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료구조
+**(1) 연결리스트(Linked list)** : 각 노드가 데이터와 포인터를 갖고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료구조
 
    <a href = "https://imgur.com/nbnpk50"><img src = "https://i.imgur.com/nbnpk50.png" width = "600px" title = "source: imgur.com"></a>
 
@@ -65,7 +65,7 @@ Merge Sort는 Devide하는 단계에서 각 node의 index가 변화하지 않고
 
    
 
-**2. 배열(Array)** : 같은 종류의 데이터들이 순차적으로 저장된 자료구조
+**(2) 배열(Array)** : 같은 종류의 데이터들이 순차적으로 저장된 자료구조
 
    <a href="https://imgur.com/kpDOStz"><img src="https://i.imgur.com/kpDOStz.png" width="600px" title="source: imgur.com" /></a>
 
@@ -83,16 +83,16 @@ Merge Sort는 Devide하는 단계에서 각 node의 index가 변화하지 않고
 
 ### 3. Merge Sort의 시간복잡도
 
-머지소트의 틀을 그림으로 나타내면 다음과 같다.
+머지소트의 틀을 나타내면 다음과 같다.
 
 <a href = "https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html"><img src = "https://gmlwjd9405.github.io/images/algorithm-merge-sort/sort-time-complexity-etc.png" width = "600px" title = "source: gnlwjd9405"></a>
 
-- 기존의 $n$개의 데이터를 각각 $n/2$인 데이터 2개로 쪼개고, 또 $n/2$인 데이터를 각각 쪼개서 4개의 $n/4$ 데이터를 만들고...........하는 방식이다.
+- 기존의 $n$개의 데이터를 각각 $n/2$개인 데이터 2개로 쪼개고, 또 $n/2$개인 데이터를 각각 쪼개서 4개의 $n/4$ 데이터를 만들고...........하는 방식이다.
 
-- 이때, 가장 처음 $n$개의 데이터의 높이를 0이라고 하면, $n/2$일 때는 1, $n/4$일 때는 2....처럼 나타낼 수 있는데 이 높이는 $k = \log_2n$으로 나타낼 수 있다.
+- 이때, 가장 처음 $n$개의 데이터의 높이를 0이라고 하면, $n/2$일 때는 1, $n/4$일 때는 2로 내려갈 때마다 높이가 1 씩 증가하는데, 이 높이는 $k = \log_2n$과 같다.
 
-- 그리고 각 높이별로 높이가 0일 때 $n$번 비교, 높이가 1일 때 $n/2 * 2 = n$번 비교..............처럼 매 높이마다 똑같이 $n$번 비교하는 것을 알 수 있다.
+- 그리고 높이가 0일 때는 $n$번 비교, 높이가 1일 때는 $n/2 * 2 = n$번 비교..............인 것처럼, 매 높이마다 항상! 똑같이!  $n$번 비교하는 것을 알 수 있다.
 
 <br/>
 
-따라서! 머지소트를 수행하는 동안 데이터로부터 만들어진 높이($\log_2n$)별로 각각 $n$번 비교하고 정렬하기 때문에 **Merge Sort의 시간복잡도는 $O(\log_2n) * O(n)$ = $O(n\log_2n)$임을 알 수 있다.**
+따라서! 머지소트를 수행하는 동안 데이터로부터 만들어진 높이($\log_2n$)안에서, 각 높이별로 $n$번 비교하고 정렬하기 때문에 **Merge Sort의 시간복잡도는 $O(\log_2n) * O(n)$ = $O(n\log_2n)$임을 알 수 있다.**
