@@ -11,13 +11,13 @@ share : true
 ---
 
 <br/>
-Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](https://ratsgo.github.io/)를 참고하였다.
+Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](https://ratsgo.github.io/), [Heee님의 블로그](https://gmlwjd9405.github.io/)를 참고하였다.
 
 <br/>
 
 ### 1. Merge Sort란?
 
-: 데이터를 쪼갤 수 없을 때 까지 쪼갠 뒤, 둘씩 크기를 비교하며 정렬하며 합치는 정렬 방법
+: 데이터를 쪼갤 수 없을 때 까지 쪼갠 뒤(Devide), 둘씩 크기를 비교해 정렬하며(Conquer) 합치는(Merge) 방법
 
 Merge Sort(합병정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(그림출처)](https://ko.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)
 
@@ -79,17 +79,29 @@ Merge Sort는 Devide하는 단계에서 각 node의 index가 변화하지 않고
 
 <br/>
 
+### 3. Merge Sort의 장단점
+
+- 장점
+
+	- **Stable 하기 때문에 안정적**이다. 따라서 데이터 분포에 영향을 덜 받으므로 어떤 데이터가 입력되어도 정렬 시간$(O(n\log_2n))$은 동일하다.
+	
+	- **자료구조로 연결리스트를 사용한다면** 링크 인덱스만 변경되므로 데이터의 이동이 무시할 수 있을 정도로 작아진다. 즉, **In-Place** 하다. 따라서 크기가 큰 레코드를 정렬할 경우 자료구조로 연결리스트를 사용한다면 정렬 방법 중 가장 효율적이다.
+- 단점
+  - **자료구조로 배열을 사용한다면** 쪼개진 데이터를 별도로 저장할 공간이 필요하기 때문에 **In-Place하지 못하다.** 이 경우, 크기가 큰 레코드를 정렬한다면 매우 큰 시간적 낭비를 초래한다.
+
+<br/>
 
 
-### 3. Merge Sort의 시간복잡도
+
+### 4. Merge Sort의 시간복잡도
 
 머지소트의 틀을 나타내면 다음과 같다.
 
 <a href = "https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html"><img src = "https://gmlwjd9405.github.io/images/algorithm-merge-sort/sort-time-complexity-etc.png" width = "600px" title = "source: gnlwjd9405"></a>
 
-- 기존의 $n$개의 데이터를 각각 $n/2$개인 데이터 2개로 쪼개고, 또 $n/2$개인 데이터를 각각 쪼개서 4개의 $n/4$ 데이터를 만들고...........하는 방식이다.
+- $n$이 2의 거듭제곱이라고 가정할 때, 기존의 $n$개의 데이터를 각각 $n/2$개인 데이터 2개로 쪼개고, 또 $n/2$개인 데이터를 각각 쪼개서 각각 $n/4$개인 데이터 4개를 만들고...........이 과정이 반복된다.
 
-- 이때, 가장 처음 $n$개의 데이터의 높이를 0이라고 하면, $n/2$일 때는 1, $n/4$일 때는 2로 내려갈 때마다 높이가 1 씩 증가하는데, 이 높이는 $k = \log_2n$과 같다.
+- 이때, 가장 처음! $n$개일 때의 데이터의 높이를 0이라고 하면, $n/2$개일 때는 1, $n/4$개일 때는 2로 내려갈 때마다 높이가 1 씩 증가하는데, 이 높이는 $k = \log_2n$과 같다.
 
 - 그리고 높이가 0일 때는 $n$번 비교, 높이가 1일 때는 $n/2 * 2 = n$번 비교..............인 것처럼, 매 높이마다 항상! 똑같이!  $n$번 비교하는 것을 알 수 있다.
 
@@ -101,6 +113,6 @@ Merge Sort는 Devide하는 단계에서 각 node의 index가 변화하지 않고
 
 참고로 시간복잡도를 매스터 정리로 구하는 방법은 다음과 같다.
 
-1. $$ T(n) = 2T(\frac n 2) + O(n)$$
-2. $a = 2, b = 2, d = 1$ 이므로 
+1. $ T(n) = 2T(\frac n 2) + O(n)$
+2. $a = 2, b = 2, d = 1$ 이므로
 3. 시간복잡도는 $$O(n\log_2n)$$
