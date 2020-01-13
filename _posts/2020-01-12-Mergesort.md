@@ -43,39 +43,35 @@ Merge Sort(합병정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(
 
 <br/>
 
+그렇다면 Merge Sort는 어떨까?
 
+- **Stable** 하다.
 
-Merge Sort는 Devide하는 단계에서 각 node의 index가 변화하지 않고, Merge하는 과정에서도 같은 key값을 가지는 node가 swap되지 않기 때문에 index가 변화하지 않는다. 따라서 **Stable** 하다.
+  : Merge Sort는 Devide하는 단계에서 각 node의 index가 변화하지 않고, Merge하는 과정에서도 같은 key값을 가지는 node가 swap되지 않기 때문에 index가 변화하지 않는다.(이것을 쉽게 말하면, 그냥 그자리에서 그자리로 나누어지고 그자리로 다시 합쳐진다는 것이다). 따라서 Stable하다. 
 
-그리고 연결리스트와 배열 중 **자료구조로 무엇을 쓰느냐에 따라 In-place한지 아닌지**를 알 수 있다.
+- **In-Place할 수도 있고 아닐 수도** 있다.
 
-<br/>
+  : 연결리스트와 배열 중 **자료구조로 무엇을 쓰느냐에 따라 In-place한지 아닌지**를 알 수 있다.
 
+  <br/>
 
+  **(1) 연결리스트(Linked list)** : 각 노드가 데이터와 포인터를 갖고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료구조
 
-**(1) 연결리스트(Linked list)** : 각 노드가 데이터와 포인터를 갖고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료구조
+     <a href = "https://imgur.com/nbnpk50"><img src = "https://i.imgur.com/nbnpk50.png" width = "600px" title = "source: imgur.com"></a>
 
-   <a href = "https://imgur.com/nbnpk50"><img src = "https://i.imgur.com/nbnpk50.png" width = "600px" title = "source: imgur.com"></a>
+  연결리스트를 사용하게 되면 기존 저장공간에서 포인터만 바꾸는 형식으로 머지소트를 수행할 수 있다. 따라서 따로 리스트를 저장할 별도의 공간이 필요하지 않기 때문에 **In-place** 하다.
 
-   연결리스트를 사용하게 되면 기존 저장공간에서 포인터만 바꾸는 형식으로 머지소트를 수행할 수 있다.
+  <br/>
 
-   따라서 따로 리스트를 저장할 별도의 공간이 필요하지 않기 때문에 **In-place** 하다.
+  **(2) 배열(Array)** : 같은 종류의 데이터들이 순차적으로 저장된 자료구조
 
-   <br/>
-
-   
-
-**(2) 배열(Array)** : 같은 종류의 데이터들이 순차적으로 저장된 자료구조
-
-   <a href="https://imgur.com/kpDOStz"><img src="https://i.imgur.com/kpDOStz.png" width="600px" title="source: imgur.com" /></a>
+    <a href="https://imgur.com/kpDOStz"><img src="https://i.imgur.com/kpDOStz.png" width="600px" title="source: imgur.com" /></a>
 
    배열은 리스트를 쪼갤 경우 쪼개진 리스트를 별도로 저장할 공간이 없기 때문에 **In-place**하지 않다.
 
-<br/>
+  <br/>
 
-
-
-따라서 머지소트의 경우 연결리스트와 배열 중 어떤 자료구조를 사용하느냐에 따라 **In-place** 할 수도 있고 아닐 수도 있다. (이후에 공부할 Quick Sort와 Heap Sort는 모두 Unstable하고 In-Place하다!)
+  따라서 머지소트의 경우 연결리스트와 배열 중 어떤 자료구조를 사용하느냐에 따라 **In-place** 할 수도 있고 아닐 수도 있다. (이후에 공부할 Quick Sort와 Heap Sort는 모두 Unstable하고 In-Place하다!)
 
 <br/>
 

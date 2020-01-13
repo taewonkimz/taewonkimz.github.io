@@ -24,9 +24,25 @@ Quick Sort(퀵 정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(�
 
 <a href = "https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html"><img src = "https://gmlwjd9405.github.io/images/algorithm-quick-sort/quick-sort.png" width = "430" title = "source: heee.com"></a>
 
+퀵 소트도 머지 소트처럼 분할(Divide) - 정복(Conquer) - 결합(Combine)의 순으로 정렬이 이루어진다.
+
+1. 리스트에서 하나의 요소(pivot. 피벗)를 선택한다.
+
+2. pivot보다 작은 값을 pivot 앞으로, pivot보다 큰 값을 pivot 앞으로 오도록 하여 리스트를 둘로 분할한다.
+
+3. 분할된 리스트를 기준으로 1~2를 반복한다.(순환 호출)
+
+4. 그럼 최종적으로 이쁘게 정렬된 하나의 데이터가 완성된다.
+
+<br/>
+
+
+
 ### 2. Quick Sort의 특징
 
+- **Unstable** 하다. 
 
+  
 
 
 
