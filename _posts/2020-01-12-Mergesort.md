@@ -45,11 +45,11 @@ Merge Sort(합병정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(
 
 - **Stable 하다.**
 
-  : Merge Sort는 Devide하는 단계에서 각 node의 index가 변하지 않고, Merge 하는 과정에서도 같은 key 값을 가지는 node가 swap되지 않기 때문에 index가 변하지 않는다. 따라서 Stable 하다.
+  Merge Sort는 Devide하는 단계에서 각 node의 index가 변하지 않고, Merge 하는 과정에서도 같은 key 값을 가지는 node가 swap되지 않기 때문에 index가 변하지 않는다. 따라서 Stable 하다.
 
 - **In-place할 수도 있고 아닐 수도 있다.**
 
-  : 연결리스트와 배열 중 자료구조로 무엇을 쓰느냐에 따라 In-place할 수도 있고 아닐 수도 있다.
+  연결리스트와 배열 중 자료구조로 무엇을 쓰느냐에 따라 In-place할 수도 있고 아닐 수도 있다.
 
   <br/>
 
