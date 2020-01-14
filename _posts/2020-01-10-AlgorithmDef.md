@@ -19,8 +19,10 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms를 참고하였다.
 
 : 주어진 입력을 출력으로 변환하는 잘 정의된 일련의 계산 단계
 
-말 그대로 입력을 받아 어떠한 과정을 거쳐 출력으로 변환하는 이 전체의 **세트**를 알고리즘이라고 한다.
-<br/>
+말 그대로 어떤 입력이 어떠한 과정을 어떤 출력으로 변환될 때, 입력을 출력으로 변환하는 그 과정을 알고리즘이라고 한다.
+
+<a href = "[https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C](https://www.inflearn.com/course/알고리즘-강좌)"><img src = "https://cdn.inflearn.com/wp-content/uploads/algorith.png" width = "500px" title = "source : inflearn.com/"></a>
+
 <br/>
 
 ### 2. 시간복잡도

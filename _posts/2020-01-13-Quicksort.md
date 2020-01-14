@@ -62,7 +62,7 @@ Quick Sort(퀵 정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(�
 
 
 
-### 3. Quick Sort의 특징
+### 3. Quick Sort의 장단점
 
 - 장점
 
@@ -82,7 +82,7 @@ Quick Sort(퀵 정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(�
 
 ### 4. Quick Sort의 시간복잡도
 
-- 최선의 경우
+- Best, Worst Case
 
   <a href="https://imgur.com/hw72vWm"><img src="https://i.imgur.com/hw72vWm.png" width="450px" title="source: imgur.com" /></a>
 
@@ -90,7 +90,7 @@ Quick Sort(퀵 정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(�
 
   이렇게 되면 머지소트와 똑같이 높이가 $\log_2n$이고, 각 층에서 $n$개의 요소에 대해 정렬을 수행하기 때문에, 시간복잡도가 $O(n\log_2n)$이다.
 
-- 최악의 경우
+- Worst Case
 
   <a href="https://imgur.com/v3xPU5E"><img src="https://i.imgur.com/v3xPU5E.png" width="300px" title="source: imgur.com" /></a>
 
