@@ -17,7 +17,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 ### 1. Merge Sort란?
 
-: 데이터를 쪼갤 수 없을 때 까지 쪼갠 뒤(Devide), 둘씩 크기를 비교해 정렬하며(Conquer) 합치는(Merge) 방법
+데이터를 **쪼갤 수 없을 때 까지 쪼갠 뒤(Devide), 둘씩 크기를 비교해 정렬하며(Conquer) 합치는(Merge)** 방법
 
 Merge Sort(합병정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(그림출처)](https://ko.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)
 
