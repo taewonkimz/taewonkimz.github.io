@@ -20,11 +20,11 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 ### 그 밖의 정렬 알고리즘
 
-다른 정렬 알고리즘을 간단하게 살펴보자
+다른 정렬 알고리즘을 간단하게 살펴보자.
 
 <br/>
 
-#### 1-1. Insertion Sort(삽입 정렬)
+### 1-1. Insertion Sort(삽입 정렬)
 
 배열의 모든 요소를 앞에서부터 차례대로, **이미 정렬된 (앞의) 배열부분과 비교하여 자신의 위치를 찾아 삽입**하며 정렬을 완성하는 알고리즘
 
@@ -48,7 +48,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-#### 1-2. Insertion Sort의 특징
+### 1-2. Insertion Sort의 특징
 
 - **Stable 하다.**
 
@@ -58,7 +58,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-#### 1-3. Insertion Sort의 장단점
+### 1-3. Insertion Sort의 장단점
 
 - 장점
 
@@ -76,7 +76,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-#### 1-4. Insertion Sort의 시간복잡도
+### 1-4. Insertion Sort의 시간복잡도
 
 - Best, Average Case
 
@@ -94,7 +94,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-#### 2-1. Bubble Sort(버블 정렬)
+### 2-1. Bubble Sort(버블 정렬)
 
 서로 인접한 두 원소를 비교하여 크기 순서대로 정렬하는 알고리즘. 여러 번의 회전을 통해 정렬이 이루어진다.
 
@@ -129,7 +129,7 @@ cf) 선택 정렬이 두번째 요소와 첫번째 요소, 세번째 요소와 �
 
 <br/>
 
-#### 2-2. Bubble Sort의 특징
+### 2-2. Bubble Sort의 특징
 
 - **Stable 하다.**
 
@@ -139,7 +139,7 @@ cf) 선택 정렬이 두번째 요소와 첫번째 요소, 세번째 요소와 �
 
 <br/>
 
-#### 2-3. Bubble Sort의 장단점
+### 2-3. Bubble Sort의 장단점
 
 - 장점
 
@@ -153,7 +153,7 @@ cf) 선택 정렬이 두번째 요소와 첫번째 요소, 세번째 요소와 �
 
 <br/>
 
-#### 2-4. Bubble Sort의 시간복잡도
+### 2-4. Bubble Sort의 시간복잡도
 
 - Best, Average, Worse Case
 
@@ -169,7 +169,7 @@ cf) 선택 정렬이 두번째 요소와 첫번째 요소, 세번째 요소와 �
 
 <br/>
 
-#### 3-1. Selection Sort(선택 정렬)
+### 3-1. Selection Sort(선택 정렬)
 
 최대값(혹은 최소값)을 찾은 뒤 맨 뒤의 값과 교체하는 과정을 반복하는 알고리즘. 여러 번의 회전을 통해 정렬이 이루어진다.
 
@@ -187,7 +187,7 @@ cf) 비교 횟수 측면에서는 하나의 요소가 나머지 모든 요소와
 
 <br/>
 
-#### 3-2. Selection Sort의 특징
+### 3-2. Selection Sort의 특징
 
 - **UnStable 하다.**
 
@@ -205,7 +205,7 @@ cf) 비교 횟수 측면에서는 하나의 요소가 나머지 모든 요소와
 
 <br/>
 
-#### 3-3. Selection Sort의 장단점
+### 3-3. Selection Sort의 장단점
 
 - 장점
 
@@ -213,35 +213,20 @@ cf) 비교 횟수 측면에서는 하나의 요소가 나머지 모든 요소와
 
 - 단점
 
-  
+  안정적이지 않다.
 
 <br/>
 
-#### 3-4. Selection Sort의 시간복잡도
+### 3-4. Selection Sort의 시간복잡도
+
+- Best, Average, Worst Case
+
+  버블 정렬과 마찬가지로 비교 횟수와 교환 횟수의 합에 비례한다
+
+  요소의 개수가 $n$개일 때, 1회전에서 최대값을 찾는 시간이 최대 $n-1$이고, 2회전에서는 $n-2$. 쭉 가다보면 마지막에는 1. 그리고 끝의 값과 비교하는 시간은 $O(1)$이므로 비교 횟수의 시간복잡도는 $n-1 + n-2 + ... + 1 = \frac {n(n-1)} 2$
+
+  교환 횟수는 마찬가지로, 저렇게 비교될 때마다 교환된다고 하면 똑같이 $\frac {n(n-1)} 2$이다.
+
+  따라서 총 시간복잡도는 $2 \times \frac {n(n-1)} 2 = O(n^2)$이다.
 
 <br/>
-
-
-
-
-
-### 3. Sorting Algorithms 총 정리
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
