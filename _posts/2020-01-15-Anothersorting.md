@@ -48,7 +48,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-### 1-2. Insertion Sort의 특징
+### 1-2. Insertion Sort(삽입 정렬)의 특징
 
 - **Stable 하다.**
 
@@ -58,7 +58,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-### 1-3. Insertion Sort의 장단점
+### 1-3. Insertion Sort(삽입 정렬)의 장단점
 
 - 장점
 
@@ -76,7 +76,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-### 1-4. Insertion Sort의 시간복잡도
+### 1-4. Insertion Sort(삽입 정렬)의 시간복잡도
 
 - **Best Case**
 
@@ -129,7 +129,7 @@ cf) 선택 정렬이 두번째 요소와 첫번째 요소, 세번째 요소와 �
 
 <br/>
 
-### 2-2. Bubble Sort의 특징
+### 2-2. Bubble Sort(버블 정렬)의 특징
 
 - **Stable 하다.**
 
@@ -139,7 +139,7 @@ cf) 선택 정렬이 두번째 요소와 첫번째 요소, 세번째 요소와 �
 
 <br/>
 
-### 2-3. Bubble Sort의 장단점
+### 2-3. Bubble Sort(버블 정렬)의 장단점
 
 - 장점
 
@@ -153,7 +153,7 @@ cf) 선택 정렬이 두번째 요소와 첫번째 요소, 세번째 요소와 �
 
 <br/>
 
-### 2-4. Bubble Sort의 시간복잡도
+### 2-4. Bubble Sort(버블 정렬)의 시간복잡도
 
 - **Best, Average, Worse Case**
 
@@ -187,7 +187,7 @@ cf) 비교 횟수 측면에서는 하나의 요소가 나머지 모든 요소와
 
 <br/>
 
-### 3-2. Selection Sort의 특징
+### 3-2. Selection Sort(선택 정렬)의 특징
 
 - **UnStable 하다.**
 
@@ -205,7 +205,7 @@ cf) 비교 횟수 측면에서는 하나의 요소가 나머지 모든 요소와
 
 <br/>
 
-### 3-3. Selection Sort의 장단점
+### 3-3. Selection Sort(선택 정렬)의 장단점
 
 - 장점
 
@@ -217,7 +217,7 @@ cf) 비교 횟수 측면에서는 하나의 요소가 나머지 모든 요소와
 
 <br/>
 
-### 3-4. Selection Sort의 시간복잡도
+### 3-4. Selection Sort(선택 정렬)의 시간복잡도
 
 - **Best, Average, Worst Case**
 

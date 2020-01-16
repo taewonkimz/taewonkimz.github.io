@@ -15,7 +15,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-### 1. Merge Sort란?
+### 1. Merge Sort(합병정렬)
 
 데이터를 **쪼갤 수 없을 때 까지 쪼갠 뒤(Devide), 둘씩 크기를 비교해 정렬하며(Conquer) 합치는(Merge)** 방법
 
@@ -33,7 +33,7 @@ Merge Sort(합병정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(
 
 
 
-### 2. Merge Sort의 특징
+### 2. Merge Sort(합병정렬)의 특징
 
 우선 정렬 알고리즘은 **Stable** 한지, 그리고 **In-place** 한지에 따라 성격이 구분된다.
 
@@ -73,7 +73,7 @@ Merge Sort(합병정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(
 
 <br/>
 
-### 3. Merge Sort의 장단점
+### 3. Merge Sort(합병정렬)의 장단점
 
 - 장점
 
@@ -89,7 +89,7 @@ Merge Sort(합병정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(
 
 
 
-### 4. Merge Sort의 시간복잡도
+### 4. Merge Sort(합병정렬)의 시간복잡도
 
 - Best, Average, Worst Case
 

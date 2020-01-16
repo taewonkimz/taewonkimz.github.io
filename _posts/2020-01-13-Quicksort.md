@@ -16,7 +16,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-### 1. Quick Sort란?
+### 1. Quick Sort(퀵 정렬)
 
 리스트의 pivot을 선택한 뒤, **pivot보다 작은 값과 큰 값으로 리스트를 둘로 분할하는 과정을 반복해 정렬**하는 방법
 
@@ -38,7 +38,7 @@ Quick Sort(퀵 정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(�
 
 
 
-### 2. Quick Sort의 특징
+### 2. Quick Sort(퀵 정렬)의 특징
 
 - **Unstable 하다.**
 
@@ -62,7 +62,7 @@ Quick Sort(퀵 정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(�
 
 
 
-### 3. Quick Sort의 장단점
+### 3. Quick Sort(퀵 정렬)의 장단점
 
 - 장점
 
@@ -80,7 +80,7 @@ Quick Sort(퀵 정렬)를 그림으로 쉽게 나타내면 다음과 같다.[(�
 
 
 
-### 4. Quick Sort의 시간복잡도
+### 4. Quick Sort(퀵 정렬)의 시간복잡도
 
 - Best, Worst Case
 
