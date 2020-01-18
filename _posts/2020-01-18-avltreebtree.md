@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "참고. Data Structure (3) AVL Tree, B-Tree"
+title : "참고 3. AVL Tree, B-Tree"
 description :
 date : 2020-01-18
 category : Algorithms
@@ -24,7 +24,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-### 1-1 AVL Tree
+### 1-1. AVL Tree
 
 **서브트리의 높이를 적절하게 제어해 전체 트리의 Balance를 맞춘 BST**. 왼쪽 서브트리와 오른쪽 서브트리의 높이 차이가 최대 1이다.
 
