@@ -53,7 +53,7 @@ Optimal Substructure는 Overlapping Subproblem과 함께 Dynamic Programming의 
 
 <a href="https://imgur.com/nqdnANR"><img src="https://i.imgur.com/nqdnANR.png" width="350px" title="source: imgur.com" /></a>
 
-대표적인 최단경로문제 알고리즘은 앞서 설명했던 다익스트라 알고리즘과 벨만-포드 알고리즘이 있다. 여러 정점끼리의 최단경로(minimum spanning tree)를 구하는 알고리즘으로는 플로이드-워셜 알고리즘이 있다.
+대표적인 최단경로문제 알고리즘은 앞서 설명했던 다익스트라 알고리즘과 벨만-포드 알고리즘이 있다. 여러 정점끼리의 최단경로를 구하는 알고리즘으로는 플로이드-워셜 알고리즘이 있다.
 
 이들을 이제부터 공부해보자.
 
