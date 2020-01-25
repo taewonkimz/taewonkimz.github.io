@@ -42,7 +42,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 - **Classroom Assignment**
 
-  교실할당 문제. 자세한 내용은 [여기]([https://ratsgo.github.io/data%20structure&algorithm/2017/11/22/greedy/](https://ratsgo.github.io/data structure&algorithm/2017/11/22/greedy/)) 참고
+  교실할당 문제. 자세한 내용은 [여기](https://ratsgo.github.io/data%20structure&algorithm/2017/11/22/greedy/) 참고
 
 - **Huffman Encoding**
 
