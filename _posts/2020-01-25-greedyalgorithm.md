@@ -54,7 +54,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-### 3. 그리디 알고리즘 기타 설명
+### 3. Greedy Algorithm 기타 설명
 
 그리디 알고리즘의 단점 : Local Optimum을 찾으면서 Global Optimum에 도달하는 방식이기 때문에 Global Optimum에 도달하지 못하고 Local Optimum에 빠져버릴 수 있다.
 
