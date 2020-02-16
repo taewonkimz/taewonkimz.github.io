@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "4. 그래프의 경로 (1) 최단경로 개요"
+title : "4. Paths in Graphs (1) Introduction of Shortest Path Problem"
 description :
 date : 2020-01-22
 category : Algorithms
@@ -25,7 +25,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 
 <br/>
 
-### 2. 최단경로문제
+### 2. Shortest Path Problem(최단경로문제)
 
 그래프의 최단경로를 구하는 문제의 유형은 크게 네가지로 나뉜다.
 

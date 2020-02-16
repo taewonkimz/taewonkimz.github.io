@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "4. 그래프의 경로 (3) 벨만-포드 알고리즘"
+title : "4. Paths in Graphs (3) Bellman-Ford Algorithm"
 description :
 date : 2020-01-24
 category : Algorithms

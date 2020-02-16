@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "1. 알고리즘의 개요 & 시간복잡도"
+title : "1. Algorithm's Introduction & Time Complexity"
 description :
 date : 2020-01-10
 category : Algorithms
@@ -15,7 +15,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms를 참고하였다.
 <br/>
 <br/>
 
-### 1. 알고리즘(Algorithm)
+### 1. Algorithm(알고리즘)
 
 주어진 입력을 출력으로 변환하는 잘 정의된 일련의 계산 단계
 
@@ -25,7 +25,7 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms를 참고하였다.
 
 <br/>
 
-### 2. 시간복잡도(Time-Complexity)
+### 2. Time Complexity(시간복잡도)
 
 알고리즘을 제대로 이해하기 위해서는 **시간복잡도**라는 개념을 이해해야한다.
 

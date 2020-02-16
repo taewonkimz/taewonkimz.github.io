@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "2. 분할정복 알고리즘 (5) 기타 정렬 알고리즘"
+title : "2. Divide & Conquer Algorithm (5) Other Algorithms"
 description :
 date : 2020-01-15
 category : Algorithms

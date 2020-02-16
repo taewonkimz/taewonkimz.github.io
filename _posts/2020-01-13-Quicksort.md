@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "2. 분할정복 알고리즘 (3) Quick Sort"
+title : "2. Divide & Conquer Algorithm (3) Quick Sort"
 description :
 date : 2020-01-13
 category : Algorithms

@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "5. 그리디 알고리즘 (1) 개요"
+title : "5. Greedy Algorithm (1) Introduction"
 description :
 date : 2020-01-25
 category : Algorithms

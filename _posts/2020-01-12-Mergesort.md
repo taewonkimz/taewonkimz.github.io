@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "2. 분할정복 알고리즘 (2) Merge Sort"
+title : "2. Divide & Conquer Algorithm (2) Merge Sort"
 description :
 date : 2020-01-12
 category : Algorithms
