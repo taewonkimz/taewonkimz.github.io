@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "2. Divide & Conquer Algorithm (5) Other Algorithms"
+title : "2. Divide & Conquer Algorithm (5) Others"
 description :
 date : 2020-01-15
 category : Algorithms
