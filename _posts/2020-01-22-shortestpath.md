@@ -30,9 +30,9 @@ Sanjoy Dasgupta가 저술한 책인 Algorithms과 [이기창님의 블로그](ht
 그래프의 최단경로를 구하는 문제의 유형은 크게 네가지로 나뉜다.
 
 - **하나의 정점에서 다른 하나의 정점**까지 최단경로(Single source and Single destination S.P)
-- **하나의 정점에서 다른 모든 정점**까지 최단경로(Single source S.P) : 다익스트라, 벨만-포드
+- **하나의 정점에서 다른 모든 정점**까지 최단경로(Single source S.P) : [다익스트라](https://taewonkimz.github.io/2020-01-23/dijkstra/), [벨만-포드](https://taewonkimz.github.io/2020-01-24/bellmanford/)
 - **여러 정점에서 하나의 정점**까지 최단경로(Single Destination S.P)
-- **여러 정점에서 모든 정점**까지 최단경로 최단경로(All pairs S.P) : 플로이드 - 워셜
+- **여러 정점에서 모든 정점**까지 최단경로 최단경로(All pairs S.P) : 플로이드 - 와샬
 
 최단경로문제를 해결하기 위해 꼭 알고 넘어가야 하는 속성이 있다.
 
