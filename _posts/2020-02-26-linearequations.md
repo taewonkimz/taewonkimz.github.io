@@ -23,20 +23,18 @@ Marc Peter Deisenroth외 2인이 저술한 책인 Mathematics for Machine Learni
 
 - **Linear** : 선형성. 직선 그래프로 표현될 수 있는 수학적 성질
 
-　　　　*선형성의 조건 : $f(x+y) = f(x) + f(y), f(ax) = af(x)$*
+　　　　　*선형성의 조건 : $f(x+y) = f(x) + f(y), f(ax) = af(x)$*
 
 - **Linear Algebra** : 선형성을 가지는 대수로 이루어진 방정식들의 해를 구하는 방법론
 - **Scalar** : a single number, e.g. 4
-- **Vector** : an orderd list of numbers, e.g. $\begin{bmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{bmatrix} \in R^n$
-- **Matrix** : $m$과 $n$이 실수일 때, $m$개의 row와 $n$개의 column으로 구성된 rectangular scheme 안에 원소들이 들어선 형태, e.g. $\begin{bmatrix} 1 & 6 \\ 3 & 4 \\ 5 & 2 \end{bmatrix} \in R^{3\times2}$
-- **Column Vector** : 한 개의 열을 갖는 matrix. 즉, 임의의 $n$개의 원소를 갖는 $n \times 1$ matrix, e.g. $\begin{bmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{bmatrix} \in R^{n \times 1}$
-- **Row Vector** : 한 개의 행을 갖는 matrix. 즉, 임의의 $n$개의 원소를 갖는 $1 \times n$ matrix, e.g. $\begin{bmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{bmatrix}^T = \begin{bmatrix} x_1 & x_2 & \dots & x_n \end{bmatrix} \in R^{1 \times n}$
+- **Vector** : an orderd list of numbers
+- **Matrix** : $m$과 $n$이 실수일 때, $m$개의 row와 $n$개의 column으로 구성된 rectangular scheme 안에 원소들이 들어선 형태
+- **Column Vector** : 한 개의 열을 갖는 matrix. 즉, 임의의 $n$개의 원소를 갖는 $n \times 1$ matrix
+- **Row Vector** : 한 개의 행을 갖는 matrix. 즉, 임의의 $n$개의 원소를 갖는 $1 \times n$ matrix
 - **Properties of Matrix**
   - Distributive : $A(B + C) = AB + AC$
   - Associative : $A(BC) = (AB)C$
   - Transpose : $(AB)^T = B^TA^T$
-
-- $A + B = \begin{bmatrix} a_{11}+b_{11} & \dots & a_{1n}+b_{1n} \\  \vdots & \vdots & \vdots\\ a_{m1}+b_{m1} & \dots & a_{mn}+b_{mn}\end{bmatrix} \in R^{m \times n}$
 
 - $A \in R^{m \times n}, B \in R^{n \times k} 　\rightarrow 　AB = C \in R^{m \times k}$
 
@@ -46,7 +44,7 @@ Marc Peter Deisenroth외 2인이 저술한 책인 Mathematics for Machine Learni
 
 - $AB \neq BA$ : 값이 달라지고, 차원도 달라질 수 있다
 
-- **Identity Matrix(단위 행렬)** : $I_n = \begin{bmatrix} 1 & 0 & \dots & 0 \\ 0 & 1 & \dots & 0 \\ \vdots & \vdots & \vdots & \vdots \\ 0 & 0 & \dots & 1 \end{bmatrix} \in R^{n \times n}, 　IA = AI = A$
+- **Identity Matrix(단위 행렬)** : $I_n \in R^{n \times n}, 　IA = AI = A$
 
 - 행렬간의 곱셈 성질 : Associativity, Distributivity
 
@@ -55,11 +53,9 @@ Marc Peter Deisenroth외 2인이 저술한 책인 Mathematics for Machine Learni
   즉, $A$의 Inverse가 있다면 A는 *regular / invertible / nonsingular* 하다고 하며,  
   　 $A$의 Inverse가 없다면 $A$는 *singular / noninvertible* 하다고 한다.
 
-  $A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}　\rightarrow　A^{-1} = \frac 1 {ad-bc}\begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$, 　* *$ad - bc$ : Determinant*
-
-- **Symetric Marix** : $A \in R^{n \times n}$이고, $A = A^T$인 $A$. Only (n, n) - matrices can by symmetric
+- **Symetric Marix** : $A \in R^{n \times n}$이고, $A = A^T$인 $A$. 　Only $n \times n$ matrices can by symmetric.
 - $(A^{-1})^T = (A^T)^{-1} = A^{-T}$
-- $A, B$가 Symmetric 하다면 $A + B = C$도 Symmetric. 하지만 $AB$는 보장할 수 없다.
+- $A, B$가 Symmetric 하다면 $A + B = C$도 Symmetric 하다. 하지만 $AB$는 보장할 수 없다.
 
 <br/>
 
@@ -95,11 +91,11 @@ $$\begin{bmatrix} a_{11} & a_{12} & \dots & a_{1n} \\ a_{21} & a_{22} & \dots & 
 
 $$-2x_1 + 4x_2 - 2x_3 - x_4 + 4x_5 = -3$$
 
-　$$4x_1 - 8x_2 + 3x_3 - 3x_4 + x_5 = 2$$
+$$4x_1 - 8x_2 + 3x_3 - 3x_4 + x_5 = 2$$
 
-　 $$x_1 - 2x_2 +　x_3 - x_4 + x_5 = 0$$
+$$x_1 - 2x_2 +　x_3 - x_4 + x_5 = 0$$
 
-　 $$x_1 - 2x_2　　　　- 3x_4 + 4x_5 = a$$
+$$x_1 - 2x_2　　　　- 3x_4 + 4x_5 = a$$
 
 이 연립일차방정식을 대상으로 가우시안 소거법을 적용해보자.
 
@@ -168,11 +164,11 @@ $$ \left[
 
 $$x_1 -2x_2 + x_3 - x_4 + x_5 = 0$$
 
-　　　　 　$$x_3 - x_4 + 3x_5 = -2$$
+$$x_3 - x_4 + 3x_5 = -2$$
 
-　　　　　　　　$$x_4 - 2x_5 = 1$$
+$$x_4 - 2x_5 = 1$$
 
-　　　　　　　　　　　$$0 = a+1$$
+$$0 = a+1$$
 
 우선적으로 $a = -1$인 것을 알 수 있다. 원래대로라면 $x_5$가 남아있어서 아래에서부터 차근차근 $x_4, x_3, x_2, x_1$을 구할 수 있지만 위 식의 경우 $x_5$가 소거되는 바람에 정확한 $x$를 구할 수 없다. 이 경우에는 General Solution을 구해주어야 한다.
 
@@ -190,13 +186,15 @@ $$x_1 -2x_2 + x_3 - x_4 + x_5 = 0$$
 - **particular solution** : free variable 값이 모두 0일 때의 solution
 - **general solution** : particular solution + $\mu \times $free variable의 값이 각각 1과 0일 때의 solution
 
-위에서 구한 결과를 토대로 particular solution과 general solution을 구하면 다음과 같다.
+위에서 구한 결과를 토대로 particular solution과 general solution을 각각 구하면 다음과 같다.
 
-particular solution : $\begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \\ -1 \\ 1 \\ 0 \end{bmatrix}$
+$$\begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \\ -1 \\ 1 \\ 0 \end{bmatrix}$$
 
-general solution : $\begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \\ -1 \\ 1 \\ 0 \end{bmatrix} + \mu_1\begin{bmatrix} 2 \\ 1 \\ 0 \\ 0 \\ 1 \end{bmatrix} + \mu_2\begin{bmatrix} 2 \\ 0 \\ -1 \\ 2 \\ 1 \end{bmatrix}$
+$$\begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \\ -1 \\ 1 \\ 0 \end{bmatrix} + \mu_1\begin{bmatrix} 2 \\ 1 \\ 0 \\ 0 \\ 1 \end{bmatrix} + \mu_2\begin{bmatrix} 2 \\ 0 \\ -1 \\ 2 \\ 1 \end{bmatrix}$$
 
-이 과정을 거치면 가우시안 소거법을 완료한 것이다.
+이 과정을 거쳐 general solution을 구했다면, 가우시안 소거법을 최종적으로 완료한 것이다.
+
+<br/>
 
 가우시안 소거법은 이밖에도 여러 경우에 사용되는데 그 경우는 다음과 같다.
 
@@ -209,13 +207,3 @@ general solution : $\begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \end{bmatrix
 위 경우 중, 가우시안 소거법을 이용해 역행렬을 어떻게 구할 수 있을까? 방법은 간단하다. $[A　|　I]$의 형태를 만들어 준 다음, 가우시안 소거법을 적용해 $A$를 $I$로 만들어주면 된다. 그러면 최종적으로 $[I　|　B]$ 의 꼴이 만들어지는데, 이 때 $B$가 바로 $A^{-1}$이다. 자세한 과정은 생략한다.
 
 <br/>
-
-
-
-
-
-
-
-
-
-
