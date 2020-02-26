@@ -50,8 +50,8 @@ Marc Peter Deisenroth외 2인이 저술한 책인 Mathematics for Machine Learni
 
 - $A \in R^{n \times n}$이고, $B \in R^{n \times n}$ 일때, $AB = I_n = BA$인 $B$를 *$A$의 Inverse* = $A^{-1}$라고 한다.
 
-  즉, $A$의 Inverse가 있다면 A는 *regular / invertible / nonsingular* 하다고 하며,  
-  　 $A$의 Inverse가 없다면 $A$는 *singular / noninvertible* 하다고 한다.
+  $A$의 Inverse가 있다면 $A$는 *regular / invertible / nonsingular* 하다고 하며,  
+  $A$의 Inverse가 없다면 $A$는 *singular / noninvertible* 하다고 한다.
 
 - **Symetric Marix** : $A \in R^{n \times n}$이고, $A = A^T$인 $A$. 　Only $n \times n$ matrices can by symmetric.
 - $(A^{-1})^T = (A^T)^{-1} = A^{-T}$
@@ -204,6 +204,7 @@ $$\begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \end{bmatrix} = \begin{bmatrix
 - matrix의 rank를 구할 때
 - basis of a vector space를 결정할 때
 
-위 경우 중, 가우시안 소거법을 이용해 역행렬을 어떻게 구할 수 있을까? 방법은 간단하다. $[A　|　I]$의 형태를 만들어 준 다음, 가우시안 소거법을 적용해 $A$를 $I$로 만들어주면 된다. 그러면 최종적으로 $[I　|　B]$ 의 꼴이 만들어지는데, 이 때 $B$가 바로 $A^{-1}$이다. 자세한 과정은 생략한다.
+위 경우들 중에서 가우시안 소거법을 이용해 역행렬을 어떻게 구할 수 있을까?  
+방법은 간단하다. $[A　|　I]$의 형태를 만들어 준 다음, 가우시안 소거법을 이용해 $A$를 $I$로 만들어주면 된다. 그러면 최종적으로 $[I　|　B]$ 형태가 만들어지는데, 이 때 $B$가 바로 $A^{-1}$이다. 자세한 과정은 생략한다.
 
 <br/>
