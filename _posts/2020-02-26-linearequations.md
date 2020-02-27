@@ -77,7 +77,11 @@ $$\begin{bmatrix} a_{11} & a_{12} & \dots & a_{1n} \\ a_{21} & a_{22} & \dots & 
 
 즉, 다시 말해 두 개 이상의 선형방정식들의 모임을 $Ax = b$의 형태로 표현할 수 있는 것이다. 여기서 $A$를 계수 행렬, $x$를 미지수 벡터, $b$를 우변 벡터라고 하며 Solution set은 일차 방정식들의 교차점(점, 선, 평면)이다.
 
-그렇다면 위 과정을 통해 $x$를 어떻게 구하는가? 당연히 $A$의 Inverse matrix를 구하면 된다. 하지만 $A$가 너무 커서 Inverse matrix를 구하기 어려운 경우에는 어떻게 할 것인가? 이 경우에는 Gaussian Elimination을 이용해준다. 또 만약 $A^{-1}$이 존재하지 않는다면 $x$는 존재하지 않거나, 혹은 무수히 많을 것이다. 이제 Gaussian Elimination을 공부해보자.
+그렇다면 위 과정을 통해 $x$를 어떻게 구하는가? 당연히 $A$의 Inverse matrix를 구하면 된다. 하지만 $A$가 너무 커서 Inverse matrix를 구하기 어려운 경우에는 어떻게 할 것인가? 이 경우에는 Gaussian Elimination을 이용해준다.
+
+*Elimination(Factorization) : 소거법. 해의 존재 여부를 판별하는 기법*
+
+또 만약 $A^{-1}$이 존재하지 않는다면 $x$는 존재하지 않거나, 혹은 무수히 많을 것이다. 이제 Gaussian Elimination을 공부해보자.
 
 <br/>
 
@@ -87,7 +91,7 @@ $$\begin{bmatrix} a_{11} & a_{12} & \dots & a_{1n} \\ a_{21} & a_{22} & \dots & 
 
 **Gaussian Elimination** : 연립일차방정식을 reduced row-echelon form(REF : 기약 사다리꼴 행렬)로 바꾸는 알고리즘
 
-가우시안 소거법을 이용해 REF를 만들게 되면 맨 밑의 row가 모두 0이 되는데 행렬 $A$의 row의 어떤 결합이 zero row를 만든다면 $b$에 대한 똑같은 선형 결합도 0이 되어야하기 때문에 해를 구할 수 있는 것이다.
+가우시안 소거법을 이용해 REF를 만들게 되면 맨 밑의 row가 모두 0이 되는데 행렬 $A$의 row의 어떤 결합이 zero row를 만든다면 $b$에 대한 똑같은 선형 결합도 0이 되어야하기 때문에 해를 구할 수 있는 것이다. 이를 **가해 조건**이라고 한다.
 
 $$-2x_1 + 4x_2 - 2x_3 - x_4 + 4x_5 = -3$$
 
@@ -179,7 +183,7 @@ $$0 = a+1$$
 - **basic variable** : pivot이 존재하는 $x$
 - **free variable** : pivot이 존재하지 않는 $x$
 
-즉, 위에서 pivot은 1st column과 3rd column, 4th column이었으므로 basic variable은 $x_1, x_3, x_4$이고, free variable은 $x_2, x_5$이다.
+즉, 위에서 pivot은 1st column과 3rd column, 4th column이었으므로 basic variable은 $x_1, x_3, x_4$이고, free variable은 $x_2, x_5$이다. *(참고 : A = m x n matrix일 때 (m < n), max(pivot) = m, min(free variable) = n - m)*
 
 그 다음으로 **particular solution**과 **general solution**이라는 개념을 알아야 한다.
 
