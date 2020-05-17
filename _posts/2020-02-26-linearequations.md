@@ -19,6 +19,12 @@ Marc Peter Deisenroth외 2인이 저술한 책인 Mathematics for Machine Learni
 
 <br/>
 
+### 0. Linear Algebra and AI
+
+AI는 뉴런의 개수와 신경망, 활성화 함수의 종류에 따라 계산식이 성립된다. 이때, 이를 연립 방정식과 같은 방법으로 수식을 세우면 컴퓨터에게 계산을 명령하는데 걸리는 시간을 대폭 줄일 수 있다. 따라서 AI의 필수 학문으로 선형대수학이 거론되는 것이다.
+
+<br/>
+
 ### 1. Introduction of Linear Algebra
 
 - **Linear** : 선형성. 직선 그래프로 표현될 수 있는 수학적 성질
