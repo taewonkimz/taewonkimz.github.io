@@ -28,7 +28,7 @@ $\lambda x_1 + \cdots + \lambda x_n = 0$의 solution이 $\lambda_1 = \cdots = \l
 
 cf) 종속(Dependence) : 선형결합을 취할 때, $\lambda_1 = \cdots = \lambda_k = 0$인 경우를 제외하고도 결과값이 0인 경우
 
-- 벡터는 Lineary Dependent 하거나 Independent 하다(둘중 하나!)
+- 벡터는 Lineary Dependent 하거나 Independent 하다(둘중 하나)
 - 벡터 $x_1, \cdots, x_n$ 중 하나라도 0이면 dependent(0인 벡터에 아무거나 곱해도 0이 되므로)
 - 벡터들이 수직이면 dependent
 - 하나의 벡터가 다른 벡터의 선형결합이면 dependent

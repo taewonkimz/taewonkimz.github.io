@@ -81,9 +81,12 @@ Linear Transformation을 하게 되면 이전 vector space의 basis는 이후 ve
 위 표현 방식에 대하여 예를 들면 다음과 같다.
 
 $$\phi : V \rightarrow W, B = (b_1, b_2, b_3), C = (c_1, c_2, c_3, c_4)$$
+
 $$\phi(b_1) = c_1 - c_2 + 3c_3 - c_4$$
+
 $$\phi(b_2) = 2c_1 + c_2 + 7c_3 + 2c_4$$
-$$\phi(b_1) = 3c_2 + c_3 + 4c_4$$
+
+$$\phi(b_3) = 3c_2 + c_3 + 4c_4$$
 
 $$\rightarrow 　A_\phi = \begin{bmatrix} \alpha_1, \alpha_2, \alpha_3 \end{bmatrix} = \begin{bmatrix} 1 & 2 & 0 \\ -1 & 1 & 3 \\ 3 & 7 & 1 \\ -1 & 2 & 4 \end{bmatrix}$$
 
