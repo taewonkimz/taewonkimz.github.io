@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "2. Linear Combination (1) Linear Combination, Vector Space, Span"
+title : "2. Linear Combination, Vector Space, Span"
 description :
 date : 2020-02-27
 category : Linear Algebra
@@ -11,7 +11,7 @@ share : true
 ---
 
 <br/>
-Marc Peter Deisenroth외 2인이 저술한 책인 Mathematics for Machine Learning과 Gilbert Strang이 저술한 책인 Introduction to Linear Algebra, 그리고 카이스트 주재걸 교수님의 강의를 참고하였다.
+Marc Peter Deisenroth외 2인이 저술한 책인 Mathematics for Machine Learning과 Gilbert Strang이 저술한 책인 Introduction to Linear Algebra, 그리고 카이스트 주재걸 교수님의 [인공지능을 위한 선형대수](https://www.edwith.org/linearalgebra4ai) 강의를 참고하였다.
 
 <br/>
 
@@ -75,6 +75,10 @@ $$a^Tb = \begin{bmatrix} 　 & 　 & 　 \end{bmatrix}\begin{bmatrix} 　 \\ 　
 $$ab^T = \begin{bmatrix} 　 \\ 　 \\ 　 \end{bmatrix}\begin{bmatrix} 　 & 　 & 　 \end{bmatrix}$$
 
 이때, [　　　]와 같이 모든 행렬들의 기본적인 행렬 단위를 **Rank 1**이라고 하며, 이는 공분산 매트릭스(Covariance matrix), Gram matrix 등 머신러닝에서 광범위하게 사용된다.
+
+벡터가 vector space 내에 존재하기 위해서는 1) 두 벡터의 합이 같은 vector space에 존재해야 하고, 2)상수배가 같은 vector space에 존재해야 하고, 3) 선형 결합이 같은 vector space에 존재해야 한다.
+
+Vector Subspace : Vector Space의 부분집합. 임의의 n차원 공간에 대해, n차원 공간에 포함되면서 n차원 벡터들에 대해 선형결합연산이 성립하는 작은 공간. 반드시 zero vector를 포함해야 한다
 
 <br/>
 

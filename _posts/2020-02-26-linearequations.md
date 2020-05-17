@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "1. Linear System (1) Introduction, Linear Equation"
+title : "1. Introduction, Linear Equation"
 description :
 date : 2020-02-26
 category : Linear Algebra
@@ -11,7 +11,7 @@ share : true
 ---
 
 <br/>
-Marc Peter Deisenroth외 2인이 저술한 책인 Mathematics for Machine Learning과 Gilbert Strang이 저술한 책인 Introduction to Linear Algebra, 그리고 카이스트 주재걸 교수님의 강의를 참고하였다.
+Marc Peter Deisenroth외 2인이 저술한 책인 Mathematics for Machine Learning과 Gilbert Strang이 저술한 책인 Introduction to Linear Algebra, 그리고 카이스트 주재걸 교수님의 [인공지능을 위한 선형대수](https://www.edwith.org/linearalgebra4ai) 강의를 참고하였다.
 
 <br/>
 
